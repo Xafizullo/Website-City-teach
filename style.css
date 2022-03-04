@@ -1,0 +1,144 @@
+body,
+h1,
+h2,
+h3,
+ul,
+p {
+  margin: 0;
+  padding: 0;
+}
+#header {
+  background-color: #35424a;
+  border-bottom: 2px solid coral;
+  position: fixed;
+  width: 100%;
+}
+#header h1 {
+  color: white;
+  font-family: sans-serif;
+  padding: 15px;
+  display: inline-block;
+}
+#header .logo {
+  color: coral;
+}
+.container {
+  width: 70%;
+  margin: auto;
+}
+.navbar {
+  float: right;
+}
+.navbar li {
+  display: inline;
+}
+.navbar li a {
+  text-decoration: none;
+  color: white;
+  font-family: sans-serif;
+  padding: 25px 15px;
+  display: inline-block;
+}
+.navbar li a:hover {
+  color: coral;
+}
+#banner {
+  height: 60vh;
+  background-image: url(img/city.webp);
+  background-repeat: no-repeat;
+  background-position: center -200px;
+  background-size: cover;
+  text-align: center;
+  color: white;
+  font-family: sans-serif;
+}
+#banner h1 {
+  font-size: 56px;
+  margin-bottom: 25px;
+  padding-top: 150px;
+}
+#newsletter {
+  background-color: #35424a;
+  color: white;
+  font-family: sans-serif;
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+}
+#newsletter .left {
+  float: left;
+}
+#newsletter .right {
+  float: right;
+}
+#newsletter input {
+  font-size: 15px;
+  padding: 5px 30px;
+}
+.button {
+  padding: 7px 18px;
+  border: none;
+  background-color: coral;
+  color: white;
+  margin-left: 20px;
+}
+#courses {
+  padding: 40px 0px;
+}
+.box {
+  width: 33.3%;
+  float: left;
+  text-align: center;
+  font-family: sans-serif;
+}
+.box img {
+  max-width: 100%;
+  width: 120px;
+}
+.clr {
+  clear: both;
+}
+#footer {
+  padding: 50px 0;
+  text-align: center;
+  background-color: coral;
+  margin-top: 40px;
+  color: white;
+}
+.main-content {
+  width: 65%;
+  float: left;
+}
+.sidebar {
+  width: 30%;
+  float: right;
+}
+#about-us {
+  margin: 40px 0px;
+  font-family: sans-serif;
+}
+.bg-dark {
+  background-color: #35424a;
+  color: white;
+  padding-right: 20px;
+}
+.services-box {
+  margin: 15px 0;
+  padding: 30px;
+  background-color: #e5e5e5;
+  border: 1px solid #555;
+}
+label {
+  /* display: block; */
+  margin-bottom: 10px 0;
+  margin-left: 10px;
+}
+.for-input,
+textarea {
+  width: 99%;
+  padding: 10px 0;
+  margin: 10px 10px;
+}
+.active {
+  color: coral !important;
+}
